@@ -17,9 +17,10 @@ public class Program
 			};
 
 		// upit i izvršavanje upita
+		//query sintaksa
 		var studentlist = from s in studentList
 						  select s;
-
+		//method sintaksa
 		var studentlist2 = studentList.Select(s => s);
 
         foreach(Student student in studentlist)
